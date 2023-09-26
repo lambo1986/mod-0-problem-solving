@@ -7,4 +7,10 @@
 # 2. i will alphabetize the array. i will use string interpolation most likely to print the output string, 
 # after an iteration over the array which will pass each place as an argument into a phrase.
 
-cool_places = ["Japan", "Mount Everest", "Alaska", "the Greek islands", "Greenland (very cool)", "New Zealand", "Lapland", "Russia's Far East", "Brazil"]
+cool_places = ["Japan", "Mount Everest", "Alaska", "Greece", "Transylvania", "Greenland (very cool)", "New Zealand", "Lapland", "Russia's Far East", "Brazil"]
+cool_places = cool_places.sort
+cool_places.each do |place|
+    puts "Someday I want to see cool places, like #{place}, in person."
+end
+
+# I had place.to_s in there before the puts. seems to work fine without. 
