@@ -33,6 +33,12 @@ def taxes_owed(income)
     puts "Congratulations! You owe $#{taxes} for last year!"
 end
 puts taxes_owed(income1)
+puts taxes_owed(income2)
+puts taxes_owed(income3)
+puts taxes_owed(income4)
+puts taxes_owed(income5)
+puts taxes_owed(income6)
+puts taxes_owed(income7)
 
 
 
