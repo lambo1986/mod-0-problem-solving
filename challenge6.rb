@@ -6,7 +6,7 @@
 # with every word capitalized.
 # 2. create or use a method that will upcase just the first letter of each word.
 # maybe break the sentence into separate strings to do this, or make into an array? 
-# 3. will need to research a lot for this. found .capitalize...
+# 3. will need to research a lot for this. found .capitalize... also learned join and split..
 
 def upcase_sentence(sentence)
     sentence = sentence.split(' ')
